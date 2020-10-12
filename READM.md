@@ -1,10 +1,11 @@
 # SPS-5542-Intelligent-Water-Distribution-Monitoring-System- This project is done under IBM-GURUCOOL FDP Program 
 ### Skills Required: IBM IoT Platform,IBM Nodered,IBM Cloudant DB
 #### Project Description:
-#### Project Idea:The project Intelligent water distribution system, as the name says it is all about management of water supply throughout the scale, 
-                   right from small societies, townships to entire urban infrastructure and also for irrigation water supply management. Main task of 
-                   the water distribution system is to maintain the water in the tank and also generate the water bills to the individual households 
-                   which involves human efforts. This system can be automated using the Internet of things.
+#### Project Idea:
+The project Intelligent water distribution system, as the name says it is all about management of water supply throughout the scale,  
+right from small societies, townships to entire urban infrastructure and also for irrigation water supply management. Main task of 
+the water distribution system is to maintain the water in the tank and also generate the water bills to the individual households 
+which involves human efforts. This system can be automated using the Internet of things.
 #### Solution Requirements:The proposed system should continuously monitor the main tank water level and should automatically switch on/off the motors
                            according to the tank water level and alert the admins.it should monitor the water flow of the individual houses and store 
                            the flow rate of each in the Cloudant DB to generate the water bills. Tank water level and the bills should be visualized 
