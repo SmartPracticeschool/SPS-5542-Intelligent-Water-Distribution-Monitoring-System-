@@ -1,0 +1,14 @@
+//this is the function to multiply flow_rate parameter by 3.5 and 
+// add it to one variable
+valuelen = msg.payload.length
+
+flow1 = 0;
+for (i=0;i<valuelen;i++)
+{
+   flow1 =  msg.payload[i].flow_rate+flow1; 
+}
+
+bill = flow1*3.5;
+
+msg.payload = bill;
+return msg;
